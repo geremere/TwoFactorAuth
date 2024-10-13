@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: TwoFactorAuth
+  mail:
+#    host: <host>
+#    port: <port>
+#    username: <username>
+#    password: <app_password>
+#    protocol: smtps
+  cache:
+    code:
+      interval: 300000
+      limit: 3
+    ip:
+      value: 5000
+      limit: 100
+    auth: 3600000
+
+
+
